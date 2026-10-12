@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessments - InternTrack Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col">
+    <header class="bg-slate-800 border-b border-slate-700 p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-lg font-bold">InternTrack Pro</h1>
+            <nav class="space-x-2">
+                <a href="index.html" class="nav-item">Dashboard</a>
+                <a href="interns.html" class="nav-item">Interns</a>
+                <a href="assessment.html" class="nav-item active">Assessments</a>
+            </nav>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto p-6 w-full">
+        <h2 class="text-xl font-bold mb-4">Performance Assessments</h2>
+        <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl" id="assessmentList"></div>
+    </main>
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/assessment.js"></script>
+</body>
+</html>
